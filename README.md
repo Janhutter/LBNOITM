@@ -21,7 +21,7 @@ conda install -c pytorch -c nvidia faiss-gpu=1.7.4 mkl=2021 blas=1.0=mkl
 
 
 ## Quick Start
-Example experiment in the `relevant distractor` setting on `kilt_nq` using the `solar 10.7B` model, where the oracle document is at the first position (i) out of the 5 total amount of documents (run).
+Example experiment in the `relevant distractor` setting on `kilt_nq` using the `solar 10.7B` model, where the oracle document is at the first position `i` out of the 5 total amount of documents `run`.
 ```bash
  model='vllm_SOLAR-107B'
  modelname='solar107b'
@@ -36,7 +36,7 @@ Example experiment in the `relevant distractor` setting on `kilt_nq` using the `
 
 ## Overview
 Using the trec files, from the runs folder, the different contexts are constructed. These trec files are build using the lost_in_the_middle.py script.
-
+The Bergen code has been adapted to read specific trec files and skips the retrieval and reranking stages. 
 
 ## Code Structure
 ```
