@@ -1,0 +1,19 @@
+# Ignore datasets folder
+/datasets/
+
+# Ignore indexes folder
+/indexes/
+
+# Ignore wandb folder
+/wandb/
+
+# Ignore Python bytecode cache files
+__pycache__/
+
+# ignore this file runs/run.retrieve.top_1000.kilt_nq.kilt-100w.dev.bm25.trec
+runs/run.retrieve.top_1000.kilt_nq.kilt-100w.dev.bm25.trec
+
+runs/kilt_nq_bm25relevant_not_correct.parquet
+
+run.retrieve.top_1000.kilt_hotpotqa.kilt-100w.dev.bm25.trec
+kilt_hotpotqa_bm25relevant_not_correct.parquet

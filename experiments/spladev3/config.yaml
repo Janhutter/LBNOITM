@@ -1,0 +1,56 @@
+trec_file: kilt_nq_top50random_oracle_at0
+retrieve_top_k: 4
+rerank_top_k: 4
+generation_top_k: 4
+pyserini_num_threads: 20
+run_name: null
+dataset_folder: datasets/
+index_folder: indexes/
+runs_folder: runs/
+experiments_folder: experiments/
+processing_num_proc: 40
+retriever:
+  init_args:
+    _target_: models.retrievers.splade.Splade
+    model_name: naver/splade-v3
+    max_len: 256
+  batch_size: 512
+  batch_size_sim: 1024
+generator:
+  init_args:
+    _target_: models.generators.llm.LLM
+    model_name: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+    max_new_tokens: 64
+    max_length: 2048
+    quantization: int4
+  batch_size: 32
+dataset:
+  train:
+    doc:
+      init_args:
+        _target_: modules.dataset_processor.KILT100w
+        split: full
+    query:
+      init_args:
+        _target_: modules.dataset_processor.KILTNQ
+        split: train
+  dev:
+    doc:
+      init_args:
+        _target_: modules.dataset_processor.KILT100w
+        split: full
+    query:
+      init_args:
+        _target_: modules.dataset_processor.KILTNQ
+        split: validation
+  test:
+    doc: null
+    query: null
+prompt:
+  system: You are a helpful assistant. Your task is to extract relevant information
+    from provided documents and to answer questions as short as possible with a keyword-like
+    minimal answer.
+  user: f"Background:\n{docs}\n\nQuestion:\ {question}"
+  system_without_docs: You are a helpful assistant. Answer the questions with a keyword-like
+    minimal answer.
+  user_without_docs: f"Question:\ {question}"

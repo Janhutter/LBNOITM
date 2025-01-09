@@ -1,0 +1,24 @@
+[2024-06-18 13:28:06,675][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:06,676][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:06,676][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:06,676][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:06,678][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:06,678][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:06,678][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:06,678][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:07,021][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:07,023][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:07,024][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:07,024][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:28:07,026][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:07,026][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:07,026][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:28:07,026][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:29:52,386][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:29:52,386][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:29:52,538][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:29:58,728][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:29:58,790][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:29:58,868][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:29:58,954][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:30:48,644][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).

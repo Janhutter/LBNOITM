@@ -1,0 +1,13 @@
+\begin{tabular}{ll|ccccc|ccccc|ccccc|ccccc|ccccc|ccccc|cc|cc}
+\toprule
+&LLM & \multicolumn{20}{c}{Random Distractor} & \multicolumn{20}{c}{Hard Distractor} & \multicolumn{20}{c}{Relevant Distractor} & \multicolumn{2}{c}{Closed Book} & \multicolumn{2}{c}{Oracle}\\ \cmidrule(lr){1-2} \cmidrule(lr){3-12} \cmidrule(lr){13-22} \cmidrule(lr){23-32} \cmidrule(lr){33-42} \cmidrule(lr){43-52} \cmidrule(lr){53-62} \cmidrule(lr){63-64} \cmidrule(lr){65-66}
+&  & \multicolumn{10}{c}{Match} & \multicolumn{10}{c}{Recall} & \multicolumn{10}{c}{Match} & \multicolumn{10}{c}{Recall} & \multicolumn{10}{c}{Match} & \multicolumn{10}{c}{Recall} & Match & Recall & Match & Recall\\ 
+
+ &  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & - & - & - & -\\ 
+\midrule
+\multirow{3}{*}{\rotatebox[origin=c]{90}{kilt-hotpotqa}} & TinyLlamaChat & 0.331 & 0.337 & 0.342 & 0.347 & 0.342 & 0.340 & 0.346 & 0.353 & 0.366 & 0.377 & 0.281 & 0.286 & 0.286 & 0.293 & 0.289 & 0.288 & 0.291 & 0.299 & 0.302 & 0.314 & 0.168 & 0.175 & 0.550 & 0.440 \\
+ & Llama2-7b-Chat & 0.515 & 0.518 & 0.521 & 0.520 & 0.523 & 0.515 & 0.510 & 0.501 & 0.508 & 0.504 & 0.376 & 0.372 & 0.382 & 0.376 & 0.379 & 0.372 & 0.373 & 0.363 & 0.374 & 0.366 & 0.241 & 0.183 & 0.683 & 0.458 \\
+ & Solar-107b & 0.626 & 0.621 & 0.613 & 0.613 & 0.616 & 0.614 & 0.612 & 0.608 & 0.617 & 0.618 & 0.482 & 0.471 & 0.465 & 0.469 & 0.470 & 0.467 & 0.469 & 0.466 & 0.472 & 0.471 & 0.000 & 0.000 & 0.000 & 0.000 \\
+ & MixTRAL-7b-Chat & 0.623 & 0.618 & 0.617 & 0.615 & 0.621 & 0.618 & 0.615 & 0.612 & 0.612 & 0.621 & 0.475 & 0.473 & 0.471 & 0.470 & 0.475 & 0.471 & 0.469 & 0.466 & 0.469 & 0.474 & 0.386 & 0.327 & 0.770 & 0.559 \\
+\bottomrule
+\end{tabular}

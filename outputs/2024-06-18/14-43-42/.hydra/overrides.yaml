@@ -1,0 +1,10 @@
+- retriever=oracle_provenance
+- generator=llama-2-7b-chat
+- dataset=kilt_nq
+- run_name=attention_llama2_7bchat_top5relevant_not_correct_oracle1_kilt_nq
+- trec_file=kilt_nq_top5relevant_not_correct_oracle_at_1
+- retrieve_top_k=5
+- generation_top_k=5
+- rerank_top_k=5
+- visualize_attention=True
+- sample_n=600
