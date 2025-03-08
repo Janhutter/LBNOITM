@@ -1,0 +1,12 @@
+[2024-06-18 13:06:44,114][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:06:44,116][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:06:44,255][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:06:44,258][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:06:44,259][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:06:44,259][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:06:45,859][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:06:45,864][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:08:38,541][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:08:38,737][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:08:39,591][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:09:33,000][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).

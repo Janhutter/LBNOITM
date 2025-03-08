@@ -1,0 +1,52 @@
+trec_file: kilt_nq_top15random_oracle_at_3
+retrieve_top_k: 15
+rerank_top_k: 15
+generation_top_k: 15
+pyserini_num_threads: 20
+run_name: llama2_7bchat_top15random_oracle3_kilt_nq
+dataset_folder: datasets/
+index_folder: indexes/
+runs_folder: runs/
+experiments_folder: experiments/
+processing_num_proc: 40
+retriever:
+  init_args:
+    _target_: models.retrievers.oracle_provenance.OracleProvenance
+    model_name: oracle_provenance
+generator:
+  init_args:
+    _target_: models.generators.llm.LLM
+    model_name: meta-llama/Llama-2-7b-chat-hf
+    max_new_tokens: 128
+    max_length: 2048
+    quantization: int4
+  batch_size: 8
+dataset:
+  train:
+    doc:
+      init_args:
+        _target_: modules.dataset_processor.KILT100w
+        split: full
+    query:
+      init_args:
+        _target_: modules.dataset_processor.KILTNQ
+        split: train
+  dev:
+    doc:
+      init_args:
+        _target_: modules.dataset_processor.KILT100w
+        split: full
+    query:
+      init_args:
+        _target_: modules.dataset_processor.KILTNQ
+        split: validation
+  test:
+    doc: null
+    query: null
+prompt:
+  system: You are a helpful assistant. Your task is to extract relevant information
+    from provided documents and to answer to questions as short as possible.
+  user: f"Background:\n{docs}\n\nQuestion:\ {question}"
+  system_without_docs: You are a helpful assistant. Answer the questions as short
+    as possible.
+  user_without_docs: f"Question:\ {question}"

@@ -1,0 +1,10 @@
+- retriever=oracle_provenance
+- generator=tinyllama-chat
+- dataset=kilt_nq
+- run_name=attention_tinyllamachat_top5relevant_not_correct_oracle3_kilt_nq
+- trec_file=kilt_nq_top5relevant_not_correct_oracle_at_3
+- retrieve_top_k=5
+- generation_top_k=5
+- rerank_top_k=5
+- visualize_attention=True
+- sample_n=600

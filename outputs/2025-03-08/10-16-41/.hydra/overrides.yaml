@@ -1,0 +1,8 @@
+- retriever=oracle_provenance
+- generator=vllm_llama-2-7b-chat
+- dataset=kilt_hotpotqa
+- run_name=llama2_7bchat_top20relevant_oracle14_kilt_hotpotqa
+- trec_file=kilt_hotpotqa_top20relevant_oracle_at_14
+- retrieve_top_k=20
+- generation_top_k=20
+- rerank_top_k=20

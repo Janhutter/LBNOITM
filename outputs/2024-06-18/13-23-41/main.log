@@ -1,0 +1,6 @@
+[2024-06-18 13:23:47,249][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:23:47,249][datasets][INFO] - PyTorch version 2.2.2 available.
+[2024-06-18 13:23:47,251][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:23:47,251][datasets][INFO] - TensorFlow version 2.8.0 available.
+[2024-06-18 13:25:44,135][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-06-18 13:25:44,137][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).

@@ -1,0 +1,3 @@
+init_args:
+  _target_: models.reducers.splade.Splade
+  model_name: "naver/splade-cocondenser-selfdistil"
